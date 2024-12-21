@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+              <img src="./hyrax logo.png" alt="">
+          <ul class="navbar-menu">
+            <img src="./hyrax logo.png" alt="">
+        <li>
+         <a href="#">Home</a>
+      </li>
+        <li>
+          <a href="#">Project</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+        <li>
+          <a href="#">About Us</a>
+        </li>
+          </ul>
+          <div class="navbar-toggle" id="navbar-toggle">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+  
+      </div>
+      </nav>
+
+      <div class="over-all">
+      <div class="container-3">
+        <div class="section-1">
+          <h2> Sign Up</h2>
+          <input name="email" id="email" type="text" placeholder="Your Email...">
+          <p id="email-error" class="error-message" style="display: none; color: red;"></p>
+        </div>
+          <div class="inner-1">
+          <input name="firstName" id="firstName" type="text" placeholder="Your First Name..." maxlength="10">
+          <input class="sec-2" name="lastName" id="lastName" type="text" placeholder="Your Last Name...">
+        </div>
+        <div class="inner-2">
+          <div class="second-flx">
+            <input  class="sec-3" name="phoneNumber" id="phoneNumber" type="number" placeholder="Your Phone Number...">
+            <p id="phone-error" class="error-message" style="display: none; color: red;"></p>
+          <input class="sec-6" name="whatsappNumber" id="whatsappNumber" type="number" placeholder="Your Whatsapp Number...">
+          <p id="whatsapp-error" class="error-message" style="display: none; color: red;"></p>
+        </div>
+        <div class="third-flx">
+          <div class="password-container">
+          <input class="sec-4" name="password" id="password" type="password" placeholder="Your Password..." >
+          <p id="password-error" class="error-message" style="display: none; color: red;"></p>
+          <span class="toggle-eye">
+            <i class="fa-solid fa-eye"></i>
+          </span>
+        </div>
+        <div class="confirm-password">
+          <input class="sec-5" name="confirm-password" id="cpassword" type="password" placeholder="Confirm Password..." >
+          <p id="confirm-password" class="error-message" style="display: none; color: red;"></p>
+          <span class="toggle-eye">
+            <i class="fa-solid fa-eye"></i>
+          </span>
+        </div>
+
+
+      </div>
+      <form>
+        <div class="terms">
+          <input type="checkbox" id="terms-checkbox">
+          <label for="terms-checkbox">
+            By creating an account, I agree to this website's 
+            <span class="spn">privacy policy</span> and 
+            <span class="spn">terms of service</span>
+          </label>
+        </div>
+        <button type="submit" id="signup-btn">Sign Up</button>
+      </form>
+      </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
